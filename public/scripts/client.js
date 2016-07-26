@@ -3,5 +3,7 @@ angular.module('listApp',[]);
 angular.module('listApp').controller('listController', function($http){
   var vm = this;
 
-  vm.test = 20;
+  vm.grabGroceries = function(){
+    // grab the groceries from the database using the $http get
+  }
 });
